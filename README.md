@@ -2,7 +2,16 @@
 
 A modern, responsive task management dashboard built with React, Vite, Tailwind CSS, and Zustand.
 
-![Application Screenshot](public/screenshots/placeholder.svg)
+![Dashboard Overview](public/screenshots/screenshot-1.png)
+
+## Gallery
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+  <img src="public/screenshots/screenshot-2.png" alt="Screenshot 2" width="100%">
+  <img src="public/screenshots/screenshot-3.png" alt="Screenshot 3" width="100%">
+  <img src="public/screenshots/screenshot-4.png" alt="Screenshot 4" width="100%">
+  <img src="public/screenshots/screenshot-5.png" alt="Screenshot 5" width="100%">
+</div>
 
 [Watch Demo Video](https://drive.google.com/file/d/175V101kLgakJAOdzhUMgaldYuzb4wUs-/view?usp=sharing)
 
