@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+/* Floating Dots Animation */
+.floating-dots {
+  background-image: radial-gradient(circle, #6366f1 2px, transparent 2px);
+  background-size: 30px 30px;
+  opacity: 0.1;
+  animation: float 20s linear infinite;
+}
+
+.dark .floating-dots {
+  background-image: radial-gradient(circle, #818cf8 2px, transparent 2px);
+  opacity: 0.05;
+}
+
+@keyframes float {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 30px 30px;
+  }
+}
+
+/* Enhance scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400 dark:bg-gray-700 dark:hover:bg-gray-600;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400 dark:bg-gray-700 dark:hover:bg-gray-600;
+}
