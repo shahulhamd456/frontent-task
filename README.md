@@ -4,6 +4,8 @@ A modern, responsive task management dashboard built with React, Vite, Tailwind 
 
 ![Application Screenshot](public/screenshots/placeholder.svg)
 
+[Watch Demo Video](https://drive.google.com/file/d/175V101kLgakJAOdzhUMgaldYuzb4wUs-/view?usp=sharing)
+
 ## Features
 
 - **Authentication**: Mock login with persistence.
